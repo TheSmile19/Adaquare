@@ -7,7 +7,7 @@ h1, h2, h3, h4 {
   font-family: 'Titan One', cursive;
   line-height: 1.5;
   padding: 3% 0;
-  color: #000;
+  color: #a34a28;
 }
 
 header {
@@ -38,9 +38,11 @@ header {
   width: 50%;
   margin: auto;
 }
-.p-img{
+
+.p-img {
   width: 80%;
 }
+
 .row {
   padding: 5% 0;
   /* background-color: #8f8d86; */
@@ -73,32 +75,38 @@ header {
   background-color: #75daad;
   padding: 0 0 10px 0;
 }
-.exp-text{
+
+.exp-text {
   width: 50%;
   margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
 }
+
 .exp1-image {
   width: 30%;
   float: left;
   margin-right: 30px;
 }
+
 .exp-image {
   width: 30%;
   float: right;
   margin-left: 30px;
 }
+
 /* pricing section */
-#pricing{
+#pricing {
   background-color: #423f3f;
   padding: 4% 5%;
 }
-.card{
+
+.card {
   width: 18rem;
   display: inline-block;
   margin: 5% 5%;
 }
+
 /* footer section */
 .social-icon {
   color: #75daad;
@@ -109,24 +117,37 @@ header {
   background-color: #423f3f;
   padding: 5px 0;
 }
-.container-fluid p{
+
+.container-fluid p {
   color: #fff;
 }
+
 .social-icon:hover {
   color: #fff;
 }
+
 /* making website responsive */
-@media (max-width: 1000px){
-  .card{
+@media (max-width: 1000px) {
+  h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+  }
+  .introduction {
+    width: 80%;
+    margin: auto;
+  }
+  .exp-text{
     width: 80%;
   }
-  .exp-image, .exp1-image{
+  .card {
+    width: 80%;
+  }
+  .exp-image, .exp1-image {
     width: 70%;
     display: block;
     float: none;
     margin: 50px 50px;
   }
-  .exp-text{
+  .exp-text {
     text-align: center;
   }
 }
